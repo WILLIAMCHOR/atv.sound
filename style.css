@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style:	none;
+    border: 0;
+    font-family: Arial;
+}
+body {
+    margin: 0 20vw 0 20vw;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    margin: 1.5vw 0 6vw 0;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li a {
+    font-size: 15px;
+    color: #553C16;
+}
+header ul li a:last-child {
+    margin-left: 1.3vw;
+}
+header ul .titulo span {
+    background: #121212;
+    padding: 5px 9px 5px 9px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+header ul .titulo {
+    font-size: 15px;
+    color: #121212;
+    align-items: center;
+}
+main section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4vw;
+    border-bottom: 2px solid #9E9B9B;
+    margin-bottom: 3vw;
+}
+main .topo img {
+    border-radius: 500px;
+}
+main .topo div h1 {
+    font-size: 60px;
+    margin: 6vw 0 2.5vw 0;
+    padding-bottom: 2.5vw;
+    border-bottom: 2px solid #DEDEDE;
+}
+main .topo div p {
+    font-size: 19px;
+    color: #404852;
+    line-height: 1.4em;
+}
+main .topo div .perfil {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+main .topo div .perfil div p {
+    margin-left: 0.7vw;
+    font-size: 15px;
+    color: #2C3A4B;
+}
+main .topo div .perfil div .nome {
+    font-weight: bold;
+    font-size: 17px;
+    color: #273240;
+}
+main .corpo h2 {
+    font-size: 60px;
+    margin-bottom: 1vw;
+}
+main .corpo p {
+    font-size: 19px;
+    color: #404852;
+    line-height: 1.4em;
+}
+main .corpo ul {
+    margin-right: 1vw;
+}
+main .corpo ul li span {
+    opacity: 0.5;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 1vw;
+}
+main .corpo ul li {
+    font-size: 40px;
+}
+
+main .corpo ul li ul li {
+    margin-bottom: 5vw;
+    padding: 1vw 0 0 2.5vw;
+    font-size: 18px;
+    opacity: 0.5;
+    color: #000000;
+}
+main .corpo ul li ul .linha {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1vw 19vw 3vw 2.5vw;
+}
+footer {
+    color: #21243D;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+footer ul li {
+    font-size: 30px;
+    margin: 0 0.5vw 0 0.5vw;
+}
